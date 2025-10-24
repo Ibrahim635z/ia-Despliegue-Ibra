@@ -1,0 +1,25 @@
+{
+  "name": "ia-despliegue-ibra",
+  "version": "1.0.0",
+  "description": "Todo sobre las verdades y mentiras de la IA",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "docs": "jsdoc -c jsdoc.conf.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ibrahim635z/ia-Despliegue-Ibra.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "jsdoc": "^4.0.5"
+  },
+  "bugs": {
+    "url": "https://github.com/Ibrahim635z/ia-Despliegue-Ibra/issues"
+  },
+  "homepage": "https://github.com/Ibrahim635z/ia-Despliegue-Ibra#readme"
+}
