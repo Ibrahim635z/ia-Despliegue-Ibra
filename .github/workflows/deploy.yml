@@ -11,15 +11,15 @@ jobs:
 
     steps:
     - name: checkout del codigo
-    - uses: actions/checkout@v4
+      uses: actions/checkout@v4
     - name: configurar node
       uses: actions/setup-node@v4
       with:
         node-version: '18'
     - name: instalar npm    
-    - run: npm install
+      run: npm install
     - name: ejecutar pruebas unitarias
-    - run: npm test
+      run: npm test
     - name: Generar la documentación con jsdoc
       run: npm run docs
 
